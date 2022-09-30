@@ -1,0 +1,64 @@
+body {
+    background-color: pink;
+  }
+  
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: antiquewhite;
+    }
+  }
+
+  .p1 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .p2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  h3{
+    color: darkgreen;
+  }
+  h1{
+    color:blueviolet;
+    text-align: center;
+  }
+  div.a{
+    text-indent: 80px;
+  }
+
+  *{ 
+    background-color:antiquewhite;  
+    background-image: url("box A.jpg");  
+    background-position: right;  
+    background-size: 20%; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+} 
+div { 
+    background-color: antiquewhite;
+    width: 800px; 
+    border: 15px solid green; 
+    padding: 50px; 
+    margin: 20px;   
+  } 
+  h4 {
+    border: 5px solid firebrick;
+  }
+  
+  h5 {
+    border: 4px dotted rgb(18, 106, 188);
+  }
+  
+  div.b {
+    border: double;
+} 
+
+ul  {
+    list-style: square inside ;
+  }
+
+h6 {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+  }
